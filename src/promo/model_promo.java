@@ -7,9 +7,18 @@ public class model_promo {
     private String nm_barang;
     private String jenis;
     private double promo;
+    private String priode;
 
     public double getPromo() {
         return promo;
+    }
+
+    public String getPriode() {
+        return priode;
+    }
+
+    public void setPriode(String priode) {
+        this.priode = priode;
     }
 
     public void setPromo(double promo) {

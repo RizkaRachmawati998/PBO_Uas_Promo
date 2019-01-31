@@ -9,7 +9,7 @@ public class LoginService {
     String sql;
     boolean status;
     ResultSet rs;
-    static String namaUser;
+//    static String namaUser;
     public void login(String Username, String Password) {
         sql = "SELECT * FROM admin WHERE Username='"+Username+"' AND password='"+Password+"'";
         
